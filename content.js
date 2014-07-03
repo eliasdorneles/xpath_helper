@@ -145,7 +145,7 @@ xh.evaluateQuery = function(query) {
       nodeCount++;
     }
     if (nodeCount === 0) {
-      str = '[NULL]';
+      str = '';
     }
   } else {
     // Since we pass XPathResult.ANY_TYPE to document.evaluate(), we should
