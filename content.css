@@ -32,8 +32,8 @@
   top: 0 !important;
 }
 
-#xh-bar.middle {
-  top: 160px !important;  /* taller than bar height */
+#xh-bar.bottom {
+  bottom: 0 !important;
 }
 
 .xh-highlight {

@@ -239,7 +239,7 @@ xh.Bar.prototype.handleRequest_ = function(request, sender, callback) {
   } else if (request['type'] === 'relocateBar') {
     // Move iframe to a different part of the screen.
     this.barFrame_.className = (
-      this.barFrame_.className === 'top' ? 'middle' : 'top');
+      this.barFrame_.className === 'top' ? 'bottom' : 'top');
   } else if (request['type'] === 'hideBar') {
     this.hideBar_();
     window.focus();
